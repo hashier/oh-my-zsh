@@ -53,3 +53,4 @@ alias mp="mplayer"
 
 alias make="colormake"
 
+alias mv="mv -i"
