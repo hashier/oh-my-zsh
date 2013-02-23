@@ -37,11 +37,10 @@ alias t="todo.pl"
 
 alias sortseries="tvnamer -c ~/.tvnamer.json ~/space/unsorted"
 
+# network manager
 alias wcd=wicd-curses
 
-alias ll="ls -lF"
-alias l="ll"
-
+# ls
 alias ll="ls -lGF"
 alias l="ll"
 alias larth="ll -larth"
@@ -54,3 +53,6 @@ alias mp="mplayer"
 alias make="colormake"
 
 alias mv="mv -i"
+
+# applications
+alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"

@@ -37,4 +37,5 @@ zstyle ':completion:*:processes' command 'ps -au$USER'
 # add colors to processes for kill completion
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;32'
 
+# tab expands .. to ../
 zstyle ':completion:*' special-dirs true
