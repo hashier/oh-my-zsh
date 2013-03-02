@@ -53,6 +53,7 @@ alias mp="mplayer"
 alias make="colormake"
 
 alias mv="mv -i"
+alias cp="cp -i"
 
 # applications
 alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
