@@ -54,6 +54,7 @@ alias make="colormake"
 
 alias mv="mv -i"
 alias cp="cp -i"
+alias rm="rm -i"
 
 # applications
 alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
