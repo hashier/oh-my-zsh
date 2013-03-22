@@ -40,14 +40,18 @@ source $ZSH/oh-my-zsh.sh
 
 export SENCHA_SDK_TOOLS_2_0_0_BETA3=/Applications/SenchaSDKTools-2.0.0-beta3
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
-export PATH=$PATH:/usr/local/sbin
+# Own scripts
+export PATH=$HOME/script
+# Default tools + HomeBrew
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
+# Macports
 export PATH=$PATH:/opt/local/bin:/opt/local/sbin
-export PATH=$PATH:$HOME/script
+# Android
 export PATH=$PATH:$HOME/Develop/android-sdk-macosx/tools
 export PATH=$PATH:$HOME/Develop/android-sdk-macosx/platform-tools
 export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/tools
 export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/platform-tools
+# Colormake, own git repo
 export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$HOME/src/projekte/rebar
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
