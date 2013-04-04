@@ -20,8 +20,6 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g N='2>/dev/null'
 
-alias -g N='2>/dev/null'
-
 # Make going up directories simple.
 alias -g ...='../..'
 alias -g ....='../../..'
@@ -46,7 +44,7 @@ alias l="ll"
 alias larth="ll -larth"
 alias larsh="ll -larSh"
 
-alias dudir="du -scm * | sort -n"
+alias dudir="du -scm * .* | sort -n"
 
 alias mp="mplayer"
 
@@ -54,6 +52,7 @@ alias make="colormake"
 
 alias mv="mv -i"
 alias cp="cp -i"
+alias rm="rm -i"
 
 # applications
 alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
