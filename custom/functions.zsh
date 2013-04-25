@@ -6,3 +6,5 @@ function ff { osascript -e 'tell application "Finder"'\
  -e 'end if' -e 'end tell'; };
 
 function cdff { cd "`ff $@`"; };
+
+function dudir () { du -scm *(ND) | sort -n }

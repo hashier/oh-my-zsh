@@ -44,7 +44,8 @@ alias l="ll"
 alias larth="ll -larth"
 alias larsh="ll -larSh"
 
-alias dudir="du -scm * .* | sort -n"
+# now as a function
+#alias dudir="du -scm * .* | sort -n"
 
 alias mp="mplayer"
 
