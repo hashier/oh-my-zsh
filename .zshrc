@@ -56,5 +56,9 @@ export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$HOME/src/projekte/rebar
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
 
+if [ -x /usr/libexec/path_helper ]; then
+	eval `/usr/libexec/path_helper -s`
+fi
+
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
