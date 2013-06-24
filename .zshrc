@@ -55,6 +55,8 @@ export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/platform-tools
 export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$HOME/src/projekte/rebar
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
+# npn
+#export PATH=$PATH:/usr/local/share/npm/bin
 
 if [ -x /usr/libexec/path_helper ]; then
 	eval `/usr/libexec/path_helper -s`
