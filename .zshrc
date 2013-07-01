@@ -40,6 +40,12 @@ source $ZSH/oh-my-zsh.sh
 
 export SENCHA_SDK_TOOLS_2_0_0_BETA3=/Applications/SenchaSDKTools-2.0.0-beta3
 
+
+#PATH stuff
+if [ -x /usr/libexec/path_helper ]; then
+	eval `/usr/libexec/path_helper -s`
+fi
+
 # Own scripts
 export PATH=$HOME/script
 # Default tools + HomeBrew
@@ -57,10 +63,6 @@ export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
 # npn
 #export PATH=$PATH:/usr/local/share/npm/bin
-
-if [ -x /usr/libexec/path_helper ]; then
-	eval `/usr/libexec/path_helper -s`
-fi
 
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
