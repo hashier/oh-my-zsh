@@ -54,7 +54,7 @@ if [ -x /usr/libexec/path_helper ]; then
 fi
 
 # Own scripts
-export PATH=$HOME/script
+export PATH=$PATH:$HOME/script
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Macports
