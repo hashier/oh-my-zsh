@@ -53,8 +53,10 @@ if [ -x /usr/libexec/path_helper ]; then
 	eval `/usr/libexec/path_helper -s`
 fi
 
+PATHHELPER=$PATH
+
 # Own scripts
-export PATH=$PATH:$HOME/script
+export PATH=$HOME/script
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Macports
@@ -70,6 +72,7 @@ export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
 # npn
 #export PATH=$PATH:/usr/local/share/npm/bin
+export PATH=$PATH:$PATHHELPER
 
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
