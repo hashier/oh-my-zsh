@@ -57,6 +57,8 @@ PATHHELPER=$PATH
 
 # Own scripts
 export PATH=$HOME/script
+# Colormake, own git repo
+export PATH=$PATH:$HOME/script/Colormake
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Macports
@@ -66,13 +68,12 @@ export PATH=$PATH:$HOME/Develop/android-sdk-macosx/tools
 export PATH=$PATH:$HOME/Develop/android-sdk-macosx/platform-tools
 export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/tools
 export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/platform-tools
-# Colormake, own git repo
-export PATH=$PATH:$HOME/script/Colormake
 #export PATH=$PATH:$HOME/src/projekte/rebar
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
 # npn
 #export PATH=$PATH:/usr/local/share/npm/bin
-export PATH=$PATH:$PATHHELPER
+# Path Helper
+export PATH=$PATH:$PATH_HELPER
 
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
