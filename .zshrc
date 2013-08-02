@@ -53,7 +53,7 @@ if [ -x /usr/libexec/path_helper ]; then
 	eval `/usr/libexec/path_helper -s`
 fi
 
-PATHHELPER=$PATH
+PATH_HELPER=$PATH
 
 # Own scripts
 export PATH=$HOME/script
