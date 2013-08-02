@@ -76,3 +76,5 @@ export PATH=$PATH:$PATHHELPER
 
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
+
+export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH
