@@ -57,3 +57,5 @@ alias rm="rm -i"
 
 # applications
 alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
+
+alias less="less -FX"
