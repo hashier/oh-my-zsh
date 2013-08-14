@@ -20,6 +20,8 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g N='2>/dev/null'
 
+alias diff=colordiff
+
 # Make going up directories simple.
 alias -g ...='../..'
 alias -g ....='../../..'
