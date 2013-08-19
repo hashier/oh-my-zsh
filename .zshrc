@@ -66,8 +66,8 @@ export PATH=$PATH:/opt/local/bin:/opt/local/sbin
 # Android
 export PATH=$PATH:$HOME/Develop/android-sdk-macosx/tools
 export PATH=$PATH:$HOME/Develop/android-sdk-macosx/platform-tools
-export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/tools
-export PATH=$PATH:$HOME/Develop/adt-bundle-mac-x86_64/sdk/platform-tools
+export PATH=$PATH:$HOME/Develop/adt-bundle-mac/sdk/tools
+export PATH=$PATH:$HOME/Develop/adt-bundle-mac/sdk/platform-tools
 #export PATH=$PATH:$HOME/src/projekte/rebar
 #export PATH=$PATH:$SENCHA_SDK_TOOLS_2_0_0_BETA3
 # npn
