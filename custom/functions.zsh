@@ -9,3 +9,8 @@ function cdff { cd "`ff $@`"; };
 
 #function dudir () { du -scm *(ND) | sort -n }
 function dudir () { du -scm ${1:-*(ND)} | sort -n }
+
+function gitgrep () { git grep $1 $(git rev-list --all) }
+
+# http://stackoverflow.com/questions/2363197/can-i-get-a-list-of-files-marked-assume-unchanged
+function gitassumeunchanged () { git ls-files -v `git rev-parse --show-toplevel` | grep "^[a-z]" }
