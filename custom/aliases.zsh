@@ -63,3 +63,6 @@ alias FreeMind="java -jar /Applications/FreeMind.app/Contents/Resources/Java/lib
 alias less="less -FX"
 
 alias spacer="repeat 7 ; echo"
+
+alias beautijson="python -mjson.tool"
+
