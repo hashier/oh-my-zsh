@@ -66,3 +66,4 @@ alias spacer="repeat 7 ; echo"
 
 alias beautijson="python -mjson.tool"
 
+alias ccat="pygmentize -g"
