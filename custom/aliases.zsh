@@ -68,4 +68,4 @@ alias beautijson="python -mjson.tool"
 
 alias ccat="pygmentize -g"
 
-alias bfg="java -jar ~/script/bfg-1.11.0.jar"
+alias bfg="java -jar ~/script/bfg.jar"
