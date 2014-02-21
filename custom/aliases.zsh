@@ -20,6 +20,9 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g N='2>/dev/null'
 
+alias -g A='-a AppCode.app'
+alias -g S='-a Sublime\ Text\ 2.app'
+
 alias diff=colordiff
 
 # Make going up directories simple.
