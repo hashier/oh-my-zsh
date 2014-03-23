@@ -47,6 +47,8 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git osx brew)
 
+ENABLE_CORRECTION="true"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -99,4 +101,10 @@ export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+eval "$(fasd --init auto)"
+
+bindkey '^X^A' fasd-complete
+bindkey '^X^F' fasd-complete-f
+bindkey '^X^D' fasd-complete-d
 
