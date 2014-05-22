@@ -68,17 +68,17 @@ export PATH=$HOME/script
 export PATH=$PATH:$HOME/script/Colormake
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
-
+# Ruby / RoR
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export PATH=$PATH:$PATH_HELPER
 
+export LANG=en_US.UTF-8
+export LC_ALL=$LANG
+
 export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
-export LANG=en_US.UTF-8
-export LC_ALL=$LANG
 
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -98,4 +98,5 @@ eval "$(fasd --init auto)"
 bindkey '^X^A' fasd-complete
 bindkey '^X^F' fasd-complete-f
 bindkey '^X^D' fasd-complete-d
+
 
