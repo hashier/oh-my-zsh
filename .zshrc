@@ -69,7 +69,7 @@ export PATH=$PATH:$HOME/script/Colormake
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Ruby / RoR
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export PATH=$PATH:$PATH_HELPER
 
@@ -100,3 +100,5 @@ bindkey '^X^F' fasd-complete-f
 bindkey '^X^D' fasd-complete-d
 
 
+
+#PATH=/bin:/sbin:/usr/bin:/usr/sbin
