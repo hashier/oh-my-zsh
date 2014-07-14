@@ -64,8 +64,9 @@ PATH_HELPER=$PATH
 
 # Own scripts
 export PATH=$HOME/script
-# Colormake, own git repo
+# own git repos
 export PATH=$PATH:$HOME/script/Colormake
+export PATH=$PATH:/Users/chl/script/get-location
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Ruby / RoR
