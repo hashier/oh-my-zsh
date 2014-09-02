@@ -75,3 +75,5 @@ alias beautijson="python -mjson.tool"
 alias ccat="pygmentize -g"
 
 alias bfg="java -jar ~/script/bfg.jar"
+
+alias fuxcode="rm -rf ~/Library/Developer/Xcode/DerivedData"
