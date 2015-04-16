@@ -53,8 +53,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export SENCHA_SDK_TOOLS_2_0_0_BETA3=/Applications/SenchaSDKTools-2.0.0-beta3
-
 #PATH stuff
 if [ -x /usr/libexec/path_helper ]; then
 	eval `/usr/libexec/path_helper -s`
@@ -100,6 +98,5 @@ bindkey '^X^A' fasd-complete
 bindkey '^X^F' fasd-complete-f
 bindkey '^X^D' fasd-complete-d
 
-
-
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
