@@ -76,4 +76,4 @@ alias ccat="pygmentize -g"
 
 alias bfg="java -jar ~/script/bfg.jar"
 
-alias fuxcode="rm -rf ~/Library/Developer/Xcode/DerivedData"
+alias fuxcode="df -h ~/ ; rm -rf ~/Library/Developer/Xcode/DerivedData ; df -h ~/"
