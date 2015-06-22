@@ -33,3 +33,4 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 export EDITOR=vim
 export LESS="-i -R"
 
+export HOMEBREW_GITHUB_API_TOKEN=a72dea1108f8bf93d6e79d78ebeaa0cd823632a4

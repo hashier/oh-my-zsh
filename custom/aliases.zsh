@@ -20,7 +20,7 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g N='>/dev/null'
 alias -g 2N='2>/dev/null'
-alias -g AN='2>&1 >/dev/null'
+alias -g AN='>/dev/null 2>&1'
 
 alias -g A='-a AppCode.app'
 alias -g S='-a Sublime\ Text\ 2.app'
