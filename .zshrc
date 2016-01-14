@@ -72,12 +72,16 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/
 # Python
 export PATH=$PATH:/Users/chl/Library/Python/2.7/bin
 
+#export PATH=$PATH:$HOME/Application/ruby/bin
+
 export PATH=$PATH:$PATH_HELPER
 
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
 
 export PYTHONPATH=~/Library/Python/2.7/lib/python/site-packages:$(brew --prefix)/lib/python2.7/site-packages
+
+#export GEM_HOME=$HOME/Application/ruby
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

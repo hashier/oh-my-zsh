@@ -76,3 +76,7 @@ alias ccat="pygmentize -g"
 alias bfg="java -jar ~/script/bfg.jar"
 
 alias fuxcode="df -h ~/ ; rm -rf ~/Library/Developer/Xcode/DerivedData ; df -h ~/"
+
+function brew.info {
+  grep desc $(brew --prefix)/Library/Formula/*.rb | perl -ne 'm{^.*/(.*?)\.rb.*?\"(.*)"$} and print "$1|$2\n"' | column -t -s '|' | fzf --reverse
+}
