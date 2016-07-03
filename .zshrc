@@ -79,7 +79,7 @@ export PATH=$PATH:$PATH_HELPER
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
 
-export PYTHONPATH=~/Library/Python/2.7/lib/python/site-packages:$(brew --prefix)/lib/python2.7/site-packages
+#export PYTHONPATH=~/Library/Python/2.7/lib/python/site-packages:$(brew --prefix)/lib/python2.7/site-packages
 
 #export GEM_HOME=$HOME/Application/ruby
 
