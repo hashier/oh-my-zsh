@@ -106,3 +106,4 @@ bindkey '^X^D' fasd-complete-d
 
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
