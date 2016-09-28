@@ -98,11 +98,10 @@ export LC_ALL=$LANG
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-eval "$(fasd --init auto)"
-
-bindkey '^X^A' fasd-complete
-bindkey '^X^F' fasd-complete-f
-bindkey '^X^D' fasd-complete-d
+#eval "$(fasd --init auto)"
+#bindkey '^X^A' fasd-complete
+#bindkey '^X^F' fasd-complete-f
+#bindkey '^X^D' fasd-complete-d
 
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
