@@ -65,14 +65,16 @@ export PATH=$HOME/script
 # own git repos
 export PATH=$PATH:$HOME/script/Colormake
 export PATH=$PATH:/Users/chl/script/get-location
+# go
+export PATH=$PATH:/Users/chl/go/bin
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
-# Ruby / RoR
-#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # Python
 export PATH=$PATH:/Users/chl/Library/Python/2.7/bin
-
+# Ruby
 #export PATH=$PATH:$HOME/Application/ruby/bin
+# Ruby / RoR
+#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export PATH=$PATH:$PATH_HELPER
 
