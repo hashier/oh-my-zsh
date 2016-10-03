@@ -70,7 +70,7 @@ export PATH=$PATH:/Users/chl/go/bin
 # Default tools + HomeBrew
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/opt/X11/bin
 # Python
-export PATH=$PATH:/Users/chl/Library/Python/2.7/bin
+# export PATH=$PATH:/Users/chl/Library/Python/2.7/bin
 # Ruby
 #export PATH=$PATH:$HOME/Application/ruby/bin
 # Ruby / RoR
