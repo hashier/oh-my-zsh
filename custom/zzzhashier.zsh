@@ -43,3 +43,6 @@ HISTCONTROL=ignorespace
 export GOPATH=$HOME/go
 
 unsetopt CASE_GLOB
+
+GPG_TTY=$(tty)
+export GPG_TTY
