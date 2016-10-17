@@ -41,3 +41,5 @@ SAVEHIST=100000
 HISTCONTROL=ignorespace
 
 export GOPATH=$HOME/go
+
+unsetopt CASE_GLOB
